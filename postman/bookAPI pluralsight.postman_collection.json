@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "1cedfef0-5e72-48a2-b860-248ddb0c9f9a",
+		"name": "bookAPI pluralsight",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URI}}/books/5e9ab3f2d3ebb41718b066e5",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"books",
+						"5e9ab3f2d3ebb41718b066e5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"title\": \"from 2222222222222222222222222222222\",\r\n    \"genre\": \"5 book genre\",\r\n    \"author\": \"5 book author\",\r\n    \"read\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URI}}/books",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URI}}/books",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n\r\n        \"read\": false\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URI}}/books/5e9ab0cfcedc9bcb21280774",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"books",
+						"5e9ab0cfcedc9bcb21280774"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n\r\n        \"read\": true\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URI}}/books/5e9ab3f2d3ebb41718b066e3",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"books",
+						"5e9ab3f2d3ebb41718b066e3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n\r\n        \"read\": true\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URI}}/books/5e9ab0cfcedc9bcb21280773",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"books",
+						"5e9ab0cfcedc9bcb21280773"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

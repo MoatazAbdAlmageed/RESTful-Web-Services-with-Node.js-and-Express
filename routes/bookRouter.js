@@ -60,7 +60,7 @@ bookRouter
   .route("/books/:bookId")
   // show single book
   .get((req, res) => {
-    return res.json(res.book);
+    return res.json(req.book);
   })
   // put single book (replace an existing resource)
   .put((req, res) => {

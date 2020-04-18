@@ -1,9 +1,14 @@
+## Installation
+
+- `npm install`
+- `npm run start`
+
 ## import db
 
 - `mongo bookAPI < bookData.js`
 - Windows `mongoimport --db bookAPI --collection books <bookData.json --jsonArray`
 
-## queires
+## try with postman?
 
-- `http://localhost:4000/api/books?read=true&title=five&d=d`
-- `http://localhost:4000/api/books/5e9ab42497a12f65d872d663`
+- import `bookAPI pluralsight.postman_collection.json`
+- import `bookAPI.postman_environment.json`
