@@ -1,0 +1,32 @@
+[
+  {
+    "title": "first book title",
+    "genre": "first book genre",
+    "author": "first book author",
+    "read": false
+  },
+  {
+    "title": "2 book title",
+    "genre": "2 book genre",
+    "author": "2 book author",
+    "read": false
+  },
+  {
+    "title": "3 book title",
+    "genre": "3 book genre",
+    "author": "3 book author",
+    "read": false
+  },
+  {
+    "title": "4 book title",
+    "genre": "4 book genre",
+    "author": "4 book author",
+    "read": true
+  },
+  {
+    "title": "five",
+    "genre": "5 book genre",
+    "author": "5 book author",
+    "read": true
+  }
+]
