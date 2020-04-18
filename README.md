@@ -5,10 +5,10 @@
 
 ## import db
 
-- `mongo bookAPI < bookData.js`
-- Windows `mongoimport --db bookAPI --collection books <bookData.json --jsonArray`
+- `mongo bookAPI < data\books.json`
+- Windows `mongoimport --db bookAPI --collection books < data/books.json --jsonArray`
 
 ## try with postman?
 
-- import `bookAPI pluralsight.postman_collection.json`
-- import `bookAPI.postman_environment.json`
+- import `data\bookAPI pluralsight.postman_collection.json`
+- import `data\bookAPI.postman_environment.json`
